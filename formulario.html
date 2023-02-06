@@ -1,14 +1,256 @@
 <!DOCTYPE html>
 <html lang="ES-es">
 
-    <head>
-        <title>Kame Kame Haa</title>
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        <link href="estilos.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        <form>
-            
-        </form>
-    </body>
+<head>
+    <title>Formulario de inscripción</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1>HOJA DE INCRIPCIÓN</h1>
+    <form>
+        <fieldset>
+            <legend>DATOS PERSONALES</legend>
+            <table>
+                <tr>
+                    <td>Apellidos:</td>
+                    <td>Nombre:</td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Fecha de nacimiento:</td>
+                    <td>Edad:</td>
+                    <td>Sexo:</td>
+                </tr>
+                <tr>
+                    <td><input type="date"></td>
+                    <td><input type="number"></td>
+                    <td><select>
+                            <option value="opcion1">Hombre</option>
+                            <option value="opcion2">Mujer</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Estado civil:</td>
+                    <td>Hijos nº:</td>
+                    <td>Mayores de 16 nº:</td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="number"></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Dirección:</td>
+                    <td>Localidad:</td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Provincia:</td>
+                    <td>C.Postal:</td>
+                    <td>D.N.I.</td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="number"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Tlfo. Fijo:</td>
+                    <td>Móvil:</td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Correo electrónico:</td>
+                </tr>
+                <tr>
+                    <td><input type="email"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>DATOS PROFESIONALES</legend>
+            <table>
+                <tr>
+                    <td>Profesión/es:</td>
+                    <td>Actualmente en paro</td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Trabajador</td>
+                    <td>Estudiante</td>
+                </tr>
+                <tr>
+                    <td><select>
+                            <option value="opcion1">Cuenta Ajena</option>
+                            <option value="opcion2">Autónomo</option>
+                        </select>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>CUSTIONARIO PREVIO DE SALUD</legend>
+            <table border="1">
+                <tr>
+                    <td>1. ¿Ha tenido o tiene alguna lesión ósea?<br>
+                        En caso afirmativo,describalo brevemente:
+                    </td>
+                    <td><select>
+                            <option value="opcion1">Si</option>
+                            <option value="opcion2">No</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="clase2"><textarea rows="1" cols="20">
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2. ¿ha tenido o tiene alguna lesión muscular?<br>
+                        En caso afirmativo,describalo brevemente:
+                    </td>
+                    <td><select>
+                            <option value="opcion1">Si</option>
+                            <option value="opcion2">No</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="clase2"><textarea rows="1" cols="20">
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3. ¿Padece alguna enfermedad cardiovascular?<br>
+                        En caso afirmativo,describalo brevemente:
+                    </td>
+                    <td><select>
+                            <option value="opcion1">Si</option>
+                            <option value="opcion2">No</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="clase2"><textarea name="aficiones" rows="1" cols="20">
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4. ¿Se asfixia con facilidad al realizar ejercicio físico?
+                    </td>
+                    <td><select>
+                            <option value="opcion1">Si</option>
+                            <option value="opcion2">No</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5. ¿Es usted?
+                    </td>
+                    <td class="clase1">Asmático/a<select>
+                            <option value="opcion1">Si</option>
+                            <option value="opcion2">No</option>
+                        </select>
+                        <br>
+                        Epiléptico/a<select>
+                            <option value="opcion1">Si</option>
+                            <option value="opcion2">No</option>
+                        </select>
+                        <br>
+                        Diabético/a<select>
+                            <option value="opcion1">Si</option>
+                            <option value="opcion2">No</option>
+                        </select>
+                        <br>
+                        Fumador/a<select>
+                            <option value="opcion1">Si</option>
+                            <option value="opcion2">No</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>6. ¿Está ud. Embarazada o sospecha estarlo?(Sólo mujeres)
+                    </td>
+                    <td><select>
+                            <option value="opcion1">Si</option>
+                            <option value="opcion2">No</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>7. ¿Padeca anemia en la actualidad?
+                    </td>
+                    <td><select>
+                            <option value="opcion1">Si</option>
+                            <option value="opcion2">No</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>8. Indique si ha tenido alguno de estos síntomas al realizar esfuerzos<br>
+                         o ejercicio físico:
+                    </td>
+                    <td class="clase1">Mareos<select>
+                            <option value="opcion1">Si</option>
+                            <option value="opcion2">No</option>
+                        </select>
+                        <br>
+                        Desmayos o lipotimias<select>
+                            <option value="opcion1">Si</option>
+                            <option value="opcion2">No</option>
+                        </select>
+                        <br>
+                        Náuseas<select>
+                            <option value="opcion1">Si</option>
+                            <option value="opcion2">No</option>
+                        </select>
+                        <br>
+                        Dificultad para respirar<select>
+                            <option value="opcion1">Si</option>
+                            <option value="opcion2">No</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>9. ¿Ha practicado o practica alguna actividad deportiva?
+                    </td>
+                    <td><select>
+                            <option value="opcion1">Si</option>
+                            <option value="opcion2">No</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10. ¿Ha estado inscrito en algún gimnasio o instalación deportiva?
+                    </td>
+                    <td><select>
+                            <option value="opcion1">Si</option>
+                            <option value="opcion2">No</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <button type="reset">Resetear</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
 </html>

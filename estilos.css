@@ -1,4 +1,18 @@
-table{
-    width: 100%;
+td.clase1 {
+    text-align: right;
+}
+
+td.clase2 {
+    border-bottom: 0px;
+}
+
+td {
+    border-top: 10px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+table {
+    width: 80%;
     text-align: center;
 }

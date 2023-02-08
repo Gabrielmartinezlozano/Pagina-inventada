@@ -17,17 +17,37 @@ table.formulario {
     text-align: center;
 }
 
-table.rutinas1{
+table.rutinas1 {
     width: 100%;
     text-align: center;
 }
 
-img.rutina{
+img.rutina {
     width: 260px;
     height: 180px;
 }
 
-.clase3{
+.clase3 {
     width: 75%;
     text-align: justify;
+}
+
+a:link {
+    text-decoration: border;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+img.gif {
+    width: 250px;
+    height: 250px;
+}
+
+.clase4 {
+    text-align: justify;
+    color: black;
+    text-decoration: double;
 }
